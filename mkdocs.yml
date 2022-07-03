@@ -39,8 +39,8 @@ nav:
       - Kubernetes: pre/setup/kubernetes.md
   - 2. 事前学習:
     - Docker:
-      - 事前学習: pre/docker/demo.md
-      - 事前課題: pre/docker/challenge.md
+      - Docker 101: pre/docker/demo.md
+      - Challenges: pre/docker/challenge.md
     - Kubernetes:
-      - 事前学習: pre/kubernetes/demo.md
-      - 事前課題: pre/kubernetes/challenge.md
+      - Kubernetes 101: pre/kubernetes/demo.md
+      - Challenges: pre/kubernetes/challenge.md

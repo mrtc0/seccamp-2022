@@ -1,9 +1,13 @@
 # 構築する環境
 
-次の2つを手元の端末にセットアップしてください。ホストとなる OS は Windows / Mac(Intel) / Linux であれば構いません。M1 Mac をお使いの場合は Docker Host(Linux VM) だけ、環境構築方法が異なるので、個別に相談してください。
+次の2つを手元の端末にセットアップしてください。ホストとなる OS は Windows / Mac(Intel) / Linux であれば構いません。
 
 - [Docker Host(Linux VM)](./docker.md)
 - [Minikube](./kubernetes.md)
+
+!!! Warning
+
+    M1 Mac をお使いの場合は Docker Host(Linux VM) だけ、環境構築方法が異なるので、個別に相談してください。
 
 ![Environment](./environment.png)
 

@@ -1,5 +1,7 @@
 # Seccamp 2022 B6
 
+**🚧 WIP**
+
 Seccamp 2022 B6 の事前学習と講義資料
 
 1. [環境構築](./pre/setup/overview.md)

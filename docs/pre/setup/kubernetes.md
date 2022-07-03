@@ -30,3 +30,13 @@ kube-system   kube-scheduler-minikube            1/1     Running   2 (29d ago)  
 kube-system   storage-provisioner                1/1     Running   5 (3h40m ago)   36d
 ```
 
+## Kubernetes クラスタの操作を簡単にするツールのインストール
+
+### kubectx / kubens
+
+https://github.com/ahmetb/kubectx
+
+### stern
+
+https://github.com/wercker/stern
+
