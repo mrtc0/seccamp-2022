@@ -1,0 +1,46 @@
+site_name: seccamp-2022-b6
+site_url: https://mrtc0.github.io/seccamp-2022
+site_description: Seccamp 2022 B6 Contents
+docs_dir: docs/
+repo_name: GitHub
+repo_url: https://github.com/mrtc0/seccamp-2022
+
+theme:
+  name: material
+  palette:
+    primary: teal
+  language: 'ja'
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - footnotes
+  - attr_list
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - HOME: index.md
+  - 1. 環境構築:
+    - Setup:
+      - Overview: pre/setup/overview.md
+      - Docker: pre/setup/docker.md
+      - Kubernetes: pre/setup/kubernetes.md
+  - 2. 事前学習:
+    - Docker:
+      - 事前学習: pre/docker/demo.md
+      - 事前課題: pre/docker/challenge.md
+    - Kubernetes:
+      - 事前学習: pre/kubernetes/demo.md
+      - 事前課題: pre/kubernetes/challenge.md

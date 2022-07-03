@@ -1,0 +1,21 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/jammy64"
+
+  config.vm.synced_folder "src", "/home/vagrant/src"
+  config.vm.synced_folder "cookbooks", "/opt/cookbooks"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "4096"
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update && apt-get install -y curl
+    curl -L https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-linux.tar.gz | tar xvz
+    mv ./mitamae-x86_64-linux /usr/local/bin/mitamae
+
+    mitamae local /opt/cookbooks/docker/recipes/default.rb
+  SHELL
+end
