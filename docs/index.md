@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Seccamp 2022 B6
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Seccamp 2022 B6 の事前学習と講義資料
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. [環境構築](./pre/setup/overview.md)
+2. 事前学習
+    - [2.1. Docker](./pre/docker/demo/)
+    - [2.2. Kubernetes](./pre/kubernetes/demo.md)
