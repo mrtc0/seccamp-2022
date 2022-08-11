@@ -5,10 +5,6 @@
 - [Docker Host(Linux VM)](./docker.md)
 - [Minikube](./kubernetes.md)
 
-!!! Warning
-
-    M1 Mac をお使いの場合は Docker Host(Linux VM) だけ、環境構築方法が異なるので、個別に相談してください。
-
 ![Environment](./environment.png)
 
 ## Docker Host (Linux VM)
